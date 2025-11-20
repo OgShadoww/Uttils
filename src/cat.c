@@ -8,9 +8,3 @@ void cat(char *file_p) {
     printf("%s", buff);
   }
 }
-
-int main(int arg, char **argc) {
-  cat(argc[1]);  
-
-  return 0;
-}
